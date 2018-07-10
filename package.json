@@ -1,0 +1,24 @@
+{
+  "name": "sha-bench",
+  "version": "1.0.0",
+  "description": "Performance comparison of SHA variants.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "sha",
+    "hash",
+    "keccak"
+  ],
+  "author": "Buğra Ekuklu",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "cryptojs": "^2.5.3",
+    "microtime": "^2.1.8",
+    "sha3": "^1.2.2",
+    "uuid": "^3.3.2"
+  }
+}
